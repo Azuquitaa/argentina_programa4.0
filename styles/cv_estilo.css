@@ -1,0 +1,135 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box; /** Esto es para hacer una grilla responsiva */
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+
+#cabecera{
+    margin: 0px;
+    background-color: rgb(212, 239, 247);
+    border: 3px solid rgb(241, 247, 250);
+}
+
+#titulo{
+    font-weight: bold;
+    
+    margin-bottom: 40px;
+    font-size:4rem;
+    color:rgb(36, 53, 97);
+    text-align: center;
+    
+}
+#subtitulo{
+    text-align: left;
+}
+
+#perfil{
+    float: left ;
+    text-align: center;
+    width: 200px;
+    height: auto;
+    float: right;
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin-top: 40px;
+}
+
+#tarjeta_principal{
+    margin-bottom: 20px;
+        
+    align-items: center;
+    text-align: center;
+    
+    margin-top: 20px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+
+}
+
+#tarjetas{
+    
+    align-items: center;
+    text-align: center;
+    
+    margin-top: 20px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+#cabecera_tarjeta{
+    margin-bottom: 10px;
+    color: antiquewhite;
+    background-color: rgb(11, 65, 116);
+    border: 2px solid rgb(45, 77, 82);
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgba(1, 33, 59, 0.5);
+}
+
+
+#un_elemento{
+    text-align: justify;
+}
+
+/**  BOTON JAVA  */
+#botones{
+    margin-top: 20px;
+    color: antiquewhite;
+}
+
+#btnGroupDrop1{
+    background-color:rgb(11, 65, 116);
+    border: 2px solid rgb(45, 77, 82);
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgba(1, 33, 59, 0.5);
+    margin-bottom: 10px;
+    color: antiquewhite;
+
+}
+
+#boton_habilidad{
+    margin-top: 30px;
+    
+    cursor:text;
+    background-color:rgb(11, 65, 116);
+    border: 2px solid rgb(45, 77, 82);
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgba(1, 33, 59, 0.5);
+    margin-bottom: 10px;
+    color: antiquewhite;
+
+}
+
+#botones_habilidad{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#boton_reset{
+    margin-bottom: 20px;
+}
+
+#footer{
+    margin: 0px;
+    background-color: rgb(212, 239, 247);
+    border: 3px solid rgb(241, 247, 250);
+    font-size: smaller;
+    margin-top: 10px;
+}
+
+#a,#b,#c,#d{
+    background-color: cornflowerblue;
+    margin: 2px;
+}
+#r{
+    background-color: darkslategrey;
+    color: antiquewhite;
+    margin: 2px;
+}
+
