@@ -75,6 +75,45 @@
     text-align: justify;
 }
 
+/**  BOTON JAVA  */
+#botones{
+    margin-top: 20px;
+    color: antiquewhite;
+}
+
+#btnGroupDrop1{
+    background-color:rgb(11, 65, 116);
+    border: 2px solid rgb(45, 77, 82);
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgba(1, 33, 59, 0.5);
+    margin-bottom: 10px;
+    color: antiquewhite;
+
+}
+
+#boton_habilidad{
+    margin-top: 30px;
+    
+    cursor:text;
+    background-color:rgb(11, 65, 116);
+    border: 2px solid rgb(45, 77, 82);
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px rgba(1, 33, 59, 0.5);
+    margin-bottom: 10px;
+    color: antiquewhite;
+
+}
+
+#botones_habilidad{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#boton_reset{
+    margin-bottom: 20px;
+}
 
 #footer{
     margin: 0px;
@@ -84,49 +123,13 @@
     margin-top: 10px;
 }
 
-
-
-/**    BOTON     
-.boton{
-    background-color: rgb(106, 106, 245);
-    overflow: hidden;
-    text-align: center;
-    align-items: center;
-    width: 200px;
-    height: 150px;
-    position: relative;
+#a,#b,#c,#d{
+    background-color: cornflowerblue;
+    margin: 2px;
+}
+#r{
+    background-color: darkslategrey;
+    color: antiquewhite;
+    margin: 2px;
 }
 
-.boton::before{
-    content: "Inglés";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-shadow: .1rem .1rem .1rem #333;
-    transition: .2s ease;
-}
-
-.boton::after{
-    content: "Intermedio";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    font-size: 1.6rem;
-    text-shadow: .1rem .1rem .1rem #333;
-    transition: .2s ease;
-    opacity: 1;
-}
-
-.boton:hover::before{
-    transform: translate(-50%, -50%) scale(3);
-    opacity: 0;
-    
-}
-.boton:hover::after{
-    transform: translate(-50%, -50%) scale(1);
-    
-    
-}
-*/
