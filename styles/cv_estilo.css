@@ -7,7 +7,6 @@
 
 
 
-
 #cabecera{
     margin: 0px;
     background-color: rgb(212, 239, 247);
@@ -37,6 +36,46 @@
     border-radius: 3px;
     margin-top: 40px;
 }
+
+/** Boton presentacion */
+@keyframes fadein {
+    0% {
+        opacity:0;
+    }
+    50%{
+        opacity:0.5;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+#presentacion_oculta{
+    display: none;
+}
+#presentacion_oculta #presentacion{
+    animation: fadein 4s;
+}
+#boton_ocultar{
+    position: relative;
+    margin-left:500px ;
+    border-radius: 3px;
+    border: 0;
+    color: f0f0f0;
+}
+
+#presentacion{
+    border: 0;
+    margin-bottom: 20px;
+        
+    align-items: center;
+    text-align: center;
+    
+    margin-top: 20px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
 
 #tarjeta_principal{
     margin-bottom: 20px;
@@ -75,7 +114,7 @@
     text-align: justify;
 }
 
-/**  BOTON JAVA  */
+/**  BOTON JS  */
 #botones{
     margin-top: 20px;
     color: antiquewhite;
