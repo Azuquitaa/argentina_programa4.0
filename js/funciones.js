@@ -1,3 +1,13 @@
+//Boton presentación
+
+function mostrar(){
+    document.getElementById("presentacion_oculta").style.display = "block";
+}
+
+function ocultar(){
+    document.getElementById("presentacion_oculta").style.display = "none";
+}
+
 
 
 document.getElementById("a").onclick = function () {
